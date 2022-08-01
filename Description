@@ -1,0 +1,4 @@
+To prevent XSS giving condition if(!pre_match($pattern, $name)). 
+Here, In $pattern giving some special characters and in $name concadinating both inputs($first_name and $last_name).
+Matching $pattern and $name. If the input characters match with $pattern it go to the else part which gives Remove Special Characters only allowed characters.
+If the condition is true then it will get into the loop and insert the data to database.
